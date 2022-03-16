@@ -25,7 +25,7 @@ module.exports = {
 		devMiddleware: {
 			publicPath: "/",
 		},
-		hot: "only",
+		hot: true,
 	},
 	output: {
 		publicPath: "public",
